@@ -80,17 +80,17 @@ namespace LoLExample
             public UInt16 oObjTeam;
             [FieldOffset(0xCC)]
             public UInt32 oObjNetworkID;
-            [FieldOffset(0x220)]
+            [FieldOffset(0x1D8)]
             public Vector3 oObjPos;
             [FieldOffset(0x270)]
             public byte oObjVisibility;
-            [FieldOffset(0xDC4)]
+            [FieldOffset(0xD98)]
             public float oObjHealth;
-            [FieldOffset(0xDD4)]
+            [FieldOffset(0xDA8)]
             public float oObjMaxHealth;
-            [FieldOffset(0x12B0)]
+            [FieldOffset(0x1278)]
             public float oObjArmor;
-            [FieldOffset(0x12C8)]
+            [FieldOffset(0x1290)]
             public float oObjMoveSpeed;
             [FieldOffset(0x1298)]
             public float oObjAtkRange;
