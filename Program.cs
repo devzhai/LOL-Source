@@ -92,7 +92,7 @@ namespace LoLExample
             public float oObjArmor;
             [FieldOffset(0x12C8)]
             public float oObjMoveSpeed;
-            [FieldOffset(0x12D0)]
+            [FieldOffset(0x1298)]
             public float oObjAtkRange;
 
             //public string oObjChampionName
