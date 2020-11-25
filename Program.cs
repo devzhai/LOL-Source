@@ -99,13 +99,13 @@ namespace LoLExample
             //{
             //    get
             //    {
-            //        return Memory.ReadString(processHandle, (IntPtr)(this.baseOffs + 0x3134), false);
+            //        return Memory.ReadString(processHandle, (IntPtr)(this.baseOffs + 0x2F4C), false);
             //    }
             //}
 
             public SpellDataStruct GetSpellData(spellSlot splSlot)
             {
-                var ptr = Memory.ReadPointer(processHandle, (IntPtr)(this.baseOffs + 0x2720 + 0x478 + (uint)splSlot * 4), isWow64Process);
+                var ptr = Memory.ReadPointer(processHandle, (IntPtr)(this.baseOffs + 0x2B60 + 0x478 + (uint)splSlot * 4), isWow64Process);
                 return SDKUtil.ReadStructure<SpellDataStruct>(processHandle, ptr);
             }
 
